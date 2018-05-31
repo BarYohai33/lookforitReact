@@ -1,0 +1,14 @@
+.containerHome {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: white;
+  height: 100%;
+}
+html {
+	background-color: white;
+}
+.react-switch {
+	margin-left: 135px;
+	bottom: 20px;
+}

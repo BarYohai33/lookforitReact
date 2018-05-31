@@ -1,0 +1,72 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+body ,html , #root, .App {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #2c2c2c;
+  height: 100%;
+}
+#containerButtons {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+.button-active-login {
+ margin-right: 20px;
+ background-color: #60D1E0;
+ border-radius: 8px;
+ padding: 7px 14px;
+ font-size: 13px;
+ margin-top: 5px;
+ cursor: pointer;
+
+}
+.button-active-signup {
+ margin-left: 20px;
+ background-color: #60D1E0;
+ border-radius: 8px;
+ padding: 7px 14px;
+ font-size: 13px;
+ margin-top: 5px;
+ cursor: pointer;
+
+}
+.button-inactive {
+ border-radius: 8px;
+ padding: 7px 14px;
+ color: white;
+ font-size: 13px;
+ margin-top: 5px;
+ cursor: pointer;
+}
+input::placeholder {
+  padding-left: 3px;
+  font-size: 14px;
+}
+#containerForgot {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+.forgotPassword {
+color:white;
+font-size: 10px;
+
+}
+.input-checkbox {
+	width:20px;
+	height: 20px;
+	background-color: white;
+	color: white;
+}
+.label-stay-connect {
+	color:white;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+#containerCheckbox {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+
+}

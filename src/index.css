@@ -1,0 +1,109 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+body ,html , #root, .App {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #2c2c2c;
+  height: 100%;
+}
+
+
+#containerForgot {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+.forgotPassword {
+color:white;
+font-size: 10px;
+
+}
+.margin35 {
+margin-top: 35px;	
+}
+.margin115 {
+margin-top: 115px;
+}
+.margin150 {
+margin-top: 150px;
+}
+.contain {
+display: flex;
+justify-content: center;
+margin: 15px 0;
+}
+.contain:hover .buyerImage,
+.contain:hover .blockText,
+.contain:hover .shipperImage {
+-moz-box-shadow: 0 0 5px 5px #666;
+-webkit-box-shadow: 0 0 5px 5px #666;
+box-shadow: 0 0 5px 5px #666;
+}
+
+.buyerImage {
+border-radius: 20px;
+height: 120px;
+width: 32%;
+border: 2px solid white;
+}
+
+.blockText {
+height: 80px;
+width: 48%;
+border: 2px solid white;
+margin-top: 20px;
+background-color: white;
+}
+
+.cornerRight {
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.reverse {
+flex-direction: row-reverse;
+}
+.cornerLeft {
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+.shipperImage {
+border-radius: 20px;
+height: 120px;
+width: 32%;
+border: 2px solid white;
+
+}
+#choice {
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.titleOnBlock {
+font-size: 100%;
+margin: 6% 10%;
+font-weight: bold;
+font-family: 'Cairo', sans-serif;
+}
+.textOnBlock {
+margin: 6% 10%;
+font-size: 60%;
+font-family: 'Nunito Sans', sans-serif;
+}
+.disabledLinkStyle {
+color:black;
+text-decoration: none;
+}
+a:hover {
+color:black;
+text-decoration: none;
+}
+#categoriesContent {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: white;
+  height: 100%;
+}
+
+
